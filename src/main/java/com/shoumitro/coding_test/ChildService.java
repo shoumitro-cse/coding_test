@@ -23,7 +23,7 @@ public class ChildService {
     
     
     //getting all record by using the method findaAll() of CrudRepository
-    public List<Child> getAllParents() {
+    public List<Child> getAllChilds() {
         List<Child> childs = new ArrayList<Child>();
         childRepository.findAll().forEach(new Consumer<Child>() {
             @Override
