@@ -4,6 +4,9 @@
 # For rest api
 http://localhost:8080/parents/
 
+# Dynamic page & size for parent
+http://localhost:8080/parents?page=0&size=2
+
 http://localhost:8080/childs/
 
 
