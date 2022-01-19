@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .mvn
+nb-configuration.xml
 ### STS ###
 .apt_generated
 .classpath
